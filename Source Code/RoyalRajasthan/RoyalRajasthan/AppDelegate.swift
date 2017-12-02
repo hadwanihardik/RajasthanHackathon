@@ -12,9 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var landingPageView = LandingPage()
+    var navigation = UINavigationController()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        landingPageView =  LandingPage(nibName: "LandingPage", bundle: nil)
+        navigation = UINavigationController.init(rootViewController: landingPageView)
+        navigation.navigationBar.isHidden = true
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = navigation
+        self.window?.makeKeyAndVisible()
+    
         // Override point for customization after application launch.
         return true
     }

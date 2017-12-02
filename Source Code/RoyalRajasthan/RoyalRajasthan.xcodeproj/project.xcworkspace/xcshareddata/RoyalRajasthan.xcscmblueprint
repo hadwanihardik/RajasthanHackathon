@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B014CA268F3512DD70E4F46ECDEDA03DC73643A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B4A2619BF5E58E613D6E04F0536DD41FD002CF1" : 9223372036854775807,
+    "3B014CA268F3512DD70E4F46ECDEDA03DC73643A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76F07AB6-0344-475A-84E0-20554823C7F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B4A2619BF5E58E613D6E04F0536DD41FD002CF1" : "Git%20Dir\/Source%20Code\/RoyalRajasthan\/RoyalRajasthan\/DBHandlerGit\/",
+    "3B014CA268F3512DD70E4F46ECDEDA03DC73643A" : "Git%20Dir\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RoyalRajasthan",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Source Code\/RoyalRajasthan\/RoyalRajasthan.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hadwanihardik\/RajasthanHackathon",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B014CA268F3512DD70E4F46ECDEDA03DC73643A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WeDeveloperiOS\/DBHandler.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B4A2619BF5E58E613D6E04F0536DD41FD002CF1"
+    }
+  ]
+}

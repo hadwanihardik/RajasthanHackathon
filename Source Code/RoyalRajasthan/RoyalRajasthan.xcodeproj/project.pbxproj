@@ -7,17 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56847E7B1FD25A2900B00980 /* VIDEO RAJSTHAN.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 56847E7A1FD25A2900B00980 /* VIDEO RAJSTHAN.mp4 */; };
+		56847E7E1FD25C0900B00980 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847E7C1FD25C0900B00980 /* HomePage.swift */; };
+		56847E7F1FD25C0900B00980 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847E7D1FD25C0900B00980 /* HomePage.xib */; };
+		56847E891FD26C3800B00980 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847E871FD26C3800B00980 /* PlaceCell.swift */; };
+		56847E8A1FD26C3800B00980 /* PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847E881FD26C3800B00980 /* PlaceCell.xib */; };
+		56847E951FD2808800B00980 /* TRAJANUS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 56847E941FD2808800B00980 /* TRAJANUS.TTF */; };
+		56847EA01FD28AB100B00980 /* DBModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847E9E1FD28AB100B00980 /* DBModels.swift */; };
+		56847EA11FD28AB100B00980 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847E9F1FD28AB100B00980 /* Utils.swift */; };
+		56847EA31FD28AD700B00980 /* royalrajasthan.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 56847EA21FD28AD700B00980 /* royalrajasthan.sqlite */; };
+		56847EAA1FD28B4100B00980 /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 56847EA91FD28B4100B00980 /* DBHandler.m */; };
+		56847EAD1FD28B5600B00980 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56847EAC1FD28B5600B00980 /* libsqlite3.tbd */; };
+		56847EB01FD28E4400B00980 /* TravelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847EAE1FD28E4400B00980 /* TravelsViewController.swift */; };
+		56847EB11FD28E4400B00980 /* TravelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847EAF1FD28E4400B00980 /* TravelsViewController.xib */; };
+		56847EB41FD2900A00B00980 /* TravelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847EB21FD2900A00B00980 /* TravelsTableViewCell.swift */; };
+		56847EB51FD2900A00B00980 /* TravelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847EB31FD2900A00B00980 /* TravelsTableViewCell.xib */; };
+		56847EB71FD2902E00B00980 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56847EB61FD2902E00B00980 /* Launch Screen.storyboard */; };
+		56847EC21FD2F2E700B00980 /* FestivalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847EC01FD2F2E700B00980 /* FestivalsViewController.swift */; };
+		56847EC31FD2F2E700B00980 /* FestivalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847EC11FD2F2E700B00980 /* FestivalsViewController.xib */; };
+		56847EC61FD2F45400B00980 /* FestivalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847EC41FD2F45400B00980 /* FestivalsTableViewCell.swift */; };
+		56847EC71FD2F45400B00980 /* FestivalsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847EC51FD2F45400B00980 /* FestivalsTableViewCell.xib */; };
+		56847ECA1FD3018C00B00980 /* PlaceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56847EC81FD3018C00B00980 /* PlaceDetailsView.swift */; };
+		56847ECB1FD3018C00B00980 /* PlaceDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56847EC91FD3018C00B00980 /* PlaceDetailsView.xib */; };
 		56C611E01FD2539200FB8A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C611DF1FD2539200FB8A14 /* AppDelegate.swift */; };
-		56C611E21FD2539200FB8A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C611E11FD2539200FB8A14 /* ViewController.swift */; };
 		56C611E71FD2539200FB8A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C611E61FD2539200FB8A14 /* Assets.xcassets */; };
+		56C611F31FD2562600FB8A14 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C611F11FD2562600FB8A14 /* LandingPage.swift */; };
+		56C611F41FD2562600FB8A14 /* LandingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C611F21FD2562600FB8A14 /* LandingPage.xib */; };
+		B92663181FD2929000467066 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92663161FD2929000467066 /* CityDetailViewController.swift */; };
+		B92663191FD2929000467066 /* CityDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92663171FD2929000467066 /* CityDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56847E7A1FD25A2900B00980 /* VIDEO RAJSTHAN.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VIDEO RAJSTHAN.mp4"; sourceTree = "<group>"; };
+		56847E7C1FD25C0900B00980 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		56847E7D1FD25C0900B00980 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		56847E871FD26C3800B00980 /* PlaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		56847E881FD26C3800B00980 /* PlaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceCell.xib; sourceTree = "<group>"; };
+		56847E941FD2808800B00980 /* TRAJANUS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = TRAJANUS.TTF; sourceTree = "<group>"; };
+		56847E9E1FD28AB100B00980 /* DBModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBModels.swift; sourceTree = "<group>"; };
+		56847E9F1FD28AB100B00980 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		56847EA21FD28AD700B00980 /* royalrajasthan.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = royalrajasthan.sqlite; sourceTree = "<group>"; };
+		56847EA41FD28B1C00B00980 /* RoyalRajasthan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoyalRajasthan-Bridging-Header.h"; sourceTree = "<group>"; };
+		56847EA81FD28B4100B00980 /* DBHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandler.h; sourceTree = "<group>"; };
+		56847EA91FD28B4100B00980 /* DBHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandler.m; sourceTree = "<group>"; };
+		56847EAC1FD28B5600B00980 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		56847EAE1FD28E4400B00980 /* TravelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelsViewController.swift; sourceTree = "<group>"; };
+		56847EAF1FD28E4400B00980 /* TravelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelsViewController.xib; sourceTree = "<group>"; };
+		56847EB21FD2900A00B00980 /* TravelsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelsTableViewCell.swift; sourceTree = "<group>"; };
+		56847EB31FD2900A00B00980 /* TravelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelsTableViewCell.xib; sourceTree = "<group>"; };
+		56847EB61FD2902E00B00980 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		56847EC01FD2F2E700B00980 /* FestivalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalsViewController.swift; sourceTree = "<group>"; };
+		56847EC11FD2F2E700B00980 /* FestivalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FestivalsViewController.xib; sourceTree = "<group>"; };
+		56847EC41FD2F45400B00980 /* FestivalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalsTableViewCell.swift; sourceTree = "<group>"; };
+		56847EC51FD2F45400B00980 /* FestivalsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FestivalsTableViewCell.xib; sourceTree = "<group>"; };
+		56847EC81FD3018C00B00980 /* PlaceDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailsView.swift; sourceTree = "<group>"; };
+		56847EC91FD3018C00B00980 /* PlaceDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceDetailsView.xib; sourceTree = "<group>"; };
 		56C611DC1FD2539200FB8A14 /* RoyalRajasthan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalRajasthan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C611DF1FD2539200FB8A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56C611E11FD2539200FB8A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56C611E61FD2539200FB8A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C611EB1FD2539200FB8A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C611F11FD2562600FB8A14 /* LandingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		56C611F21FD2562600FB8A14 /* LandingPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingPage.xib; sourceTree = "<group>"; };
+		B92663161FD2929000467066 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		B92663171FD2929000467066 /* CityDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,17 +77,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56847EAD1FD28B5600B00980 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56847E791FD25A0F00B00980 /* Extra Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				56847E941FD2808800B00980 /* TRAJANUS.TTF */,
+				56847E7A1FD25A2900B00980 /* VIDEO RAJSTHAN.mp4 */,
+			);
+			name = "Extra Stuff";
+			sourceTree = "<group>";
+		};
+		56847E801FD2602700B00980 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				56847E871FD26C3800B00980 /* PlaceCell.swift */,
+				56847E881FD26C3800B00980 /* PlaceCell.xib */,
+				56847EB21FD2900A00B00980 /* TravelsTableViewCell.swift */,
+				56847EB31FD2900A00B00980 /* TravelsTableViewCell.xib */,
+				56847EC41FD2F45400B00980 /* FestivalsTableViewCell.swift */,
+				56847EC51FD2F45400B00980 /* FestivalsTableViewCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		56847E981FD28A4300B00980 /* Util files */ = {
+			isa = PBXGroup;
+			children = (
+				56847E9E1FD28AB100B00980 /* DBModels.swift */,
+				56847E9F1FD28AB100B00980 /* Utils.swift */,
+				56847E991FD28A5000B00980 /* DBHandlerGit */,
+			);
+			name = "Util files";
+			sourceTree = "<group>";
+		};
+		56847E991FD28A5000B00980 /* DBHandlerGit */ = {
+			isa = PBXGroup;
+			children = (
+				56847EA81FD28B4100B00980 /* DBHandler.h */,
+				56847EA91FD28B4100B00980 /* DBHandler.m */,
+				56847EA41FD28B1C00B00980 /* RoyalRajasthan-Bridging-Header.h */,
+			);
+			path = DBHandlerGit;
+			sourceTree = "<group>";
+		};
+		56847EAB1FD28B5600B00980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56847EAC1FD28B5600B00980 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56C611D31FD2539100FB8A14 = {
 			isa = PBXGroup;
 			children = (
 				56C611DE1FD2539200FB8A14 /* RoyalRajasthan */,
 				56C611DD1FD2539200FB8A14 /* Products */,
+				56847EAB1FD28B5600B00980 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +155,25 @@
 			isa = PBXGroup;
 			children = (
 				56C611DF1FD2539200FB8A14 /* AppDelegate.swift */,
-				56C611E11FD2539200FB8A14 /* ViewController.swift */,
+				56C611F11FD2562600FB8A14 /* LandingPage.swift */,
+				56C611F21FD2562600FB8A14 /* LandingPage.xib */,
+				56847E7C1FD25C0900B00980 /* HomePage.swift */,
+				56847E7D1FD25C0900B00980 /* HomePage.xib */,
+				B92663161FD2929000467066 /* CityDetailViewController.swift */,
+				B92663171FD2929000467066 /* CityDetailViewController.xib */,
+				56847EC81FD3018C00B00980 /* PlaceDetailsView.swift */,
+				56847EC91FD3018C00B00980 /* PlaceDetailsView.xib */,
+				56847EAE1FD28E4400B00980 /* TravelsViewController.swift */,
+				56847EAF1FD28E4400B00980 /* TravelsViewController.xib */,
+				56847EC01FD2F2E700B00980 /* FestivalsViewController.swift */,
+				56847EC11FD2F2E700B00980 /* FestivalsViewController.xib */,
+				56847E801FD2602700B00980 /* CustomCells */,
 				56C611E61FD2539200FB8A14 /* Assets.xcassets */,
+				56847E981FD28A4300B00980 /* Util files */,
 				56C611EB1FD2539200FB8A14 /* Info.plist */,
+				56847EB61FD2902E00B00980 /* Launch Screen.storyboard */,
+				56847EA21FD28AD700B00980 /* royalrajasthan.sqlite */,
+				56847E791FD25A0F00B00980 /* Extra Stuff */,
 			);
 			path = RoyalRajasthan;
 			sourceTree = "<group>";
@@ -91,6 +211,7 @@
 					56C611DB1FD2539100FB8A14 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = E6QYPP684L;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -118,7 +239,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56847E951FD2808800B00980 /* TRAJANUS.TTF in Resources */,
+				56C611F41FD2562600FB8A14 /* LandingPage.xib in Resources */,
+				B92663191FD2929000467066 /* CityDetailViewController.xib in Resources */,
+				56847E7B1FD25A2900B00980 /* VIDEO RAJSTHAN.mp4 in Resources */,
+				56847EC31FD2F2E700B00980 /* FestivalsViewController.xib in Resources */,
+				56847ECB1FD3018C00B00980 /* PlaceDetailsView.xib in Resources */,
+				56847E8A1FD26C3800B00980 /* PlaceCell.xib in Resources */,
+				56847EA31FD28AD700B00980 /* royalrajasthan.sqlite in Resources */,
+				56847EC71FD2F45400B00980 /* FestivalsTableViewCell.xib in Resources */,
 				56C611E71FD2539200FB8A14 /* Assets.xcassets in Resources */,
+				56847E7F1FD25C0900B00980 /* HomePage.xib in Resources */,
+				56847EB11FD28E4400B00980 /* TravelsViewController.xib in Resources */,
+				56847EB71FD2902E00B00980 /* Launch Screen.storyboard in Resources */,
+				56847EB51FD2900A00B00980 /* TravelsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C611E21FD2539200FB8A14 /* ViewController.swift in Sources */,
+				56C611F31FD2562600FB8A14 /* LandingPage.swift in Sources */,
+				56847EA01FD28AB100B00980 /* DBModels.swift in Sources */,
+				56847EC21FD2F2E700B00980 /* FestivalsViewController.swift in Sources */,
+				56847EC61FD2F45400B00980 /* FestivalsTableViewCell.swift in Sources */,
+				56847ECA1FD3018C00B00980 /* PlaceDetailsView.swift in Sources */,
+				56847E891FD26C3800B00980 /* PlaceCell.swift in Sources */,
+				56847EB41FD2900A00B00980 /* TravelsTableViewCell.swift in Sources */,
+				B92663181FD2929000467066 /* CityDetailViewController.swift in Sources */,
+				56847EB01FD28E4400B00980 /* TravelsViewController.swift in Sources */,
+				56847EA11FD28AB100B00980 /* Utils.swift in Sources */,
+				56847E7E1FD25C0900B00980 /* HomePage.swift in Sources */,
+				56847EAA1FD28B4100B00980 /* DBHandler.m in Sources */,
 				56C611E01FD2539200FB8A14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,13 +379,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Abe Sher (P6HVL356V5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E6QYPP684L;
 				INFOPLIST_FILE = RoyalRajasthan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hardikTest..RoyalRajasthan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hardikTest.RoyalRajasthan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f6dd44c8-1cf9-466b-845d-1eb6bfb172bf";
 				PROVISIONING_PROFILE_SPECIFIER = "Abe Wildcard";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyalRajasthan/DBHandlerGit/RoyalRajasthan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -249,13 +400,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Abe Sher (P6HVL356V5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E6QYPP684L;
 				INFOPLIST_FILE = RoyalRajasthan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hardikTest..RoyalRajasthan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hardikTest.RoyalRajasthan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f6dd44c8-1cf9-466b-845d-1eb6bfb172bf";
 				PROVISIONING_PROFILE_SPECIFIER = "Abe Wildcard";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyalRajasthan/DBHandlerGit/RoyalRajasthan-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -279,6 +435,7 @@
 				56C611F01FD2539200FB8A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

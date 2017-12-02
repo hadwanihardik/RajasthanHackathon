@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TRAJANUS.TTF">
+            <string>TrajanusRoman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TravelsViewController" customModule="RoyalRajasthan" customModuleProvider="target">
+            <connections>
+                <outlet property="tblTravels" destination="I25-4Q-wMD" id="s4a-f7-SSS"/>
+                <outlet property="view" destination="Foh-Ir-qZi" id="9qu-pi-7yn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Foh-Ir-qZi">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backGround" translatesAutoresizingMaskIntoConstraints="NO" id="h8t-4g-TDQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3q-Nc-FQ7">
+                    <rect key="frame" x="0.0" y="0.0" width="374" height="677"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.38" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGC-8N-eSg">
+                    <rect key="frame" x="0.0" y="10" width="375" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="NIF-ed-Dpl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="TrajanusRoman" family="Trajanus Roman" pointSize="26"/>
+                    <color key="textColor" red="0.97254901959999995" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeT-fn-XdE">
+                    <rect key="frame" x="10" y="12" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="65L-0Y-dtm"/>
+                        <constraint firstAttribute="height" constant="40" id="gFz-46-c8f"/>
+                    </constraints>
+                    <state key="normal" image="btnBack"/>
+                    <connections>
+                        <action selector="btnBackTapped:" destination="-1" eventType="touchUpInside" id="i9W-PY-x1i"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="100" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="I25-4Q-wMD">
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="WLg-XB-DLF"/>
+                        <outlet property="delegate" destination="-1" id="r93-FC-g9x"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I25-4Q-wMD" firstAttribute="leading" secondItem="Foh-Ir-qZi" secondAttribute="leading" id="BrD-qj-awB"/>
+                <constraint firstItem="OGC-8N-eSg" firstAttribute="leading" secondItem="Foh-Ir-qZi" secondAttribute="leading" id="Cxb-tI-Pre"/>
+                <constraint firstAttribute="trailing" secondItem="OGC-8N-eSg" secondAttribute="trailing" id="JAK-yj-d89"/>
+                <constraint firstItem="I25-4Q-wMD" firstAttribute="top" secondItem="OGC-8N-eSg" secondAttribute="bottom" constant="-10" id="Kyo-dq-C5Q"/>
+                <constraint firstItem="OGC-8N-eSg" firstAttribute="top" secondItem="Foh-Ir-qZi" secondAttribute="top" constant="10" id="Uyu-i3-y2O"/>
+                <constraint firstAttribute="bottom" secondItem="I25-4Q-wMD" secondAttribute="bottom" id="eV7-Ds-6Bm"/>
+                <constraint firstItem="MeT-fn-XdE" firstAttribute="leading" secondItem="Foh-Ir-qZi" secondAttribute="leading" constant="10" id="lYQ-Rv-7wb"/>
+                <constraint firstAttribute="trailing" secondItem="I25-4Q-wMD" secondAttribute="trailing" id="lZ4-fo-oFZ"/>
+                <constraint firstItem="MeT-fn-XdE" firstAttribute="top" secondItem="Foh-Ir-qZi" secondAttribute="top" constant="12" id="wnM-El-8CI"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="69.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backGround" width="400" height="640"/>
+        <image name="btnBack" width="32" height="32"/>
+    </resources>
+</document>
