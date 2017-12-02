@@ -58,6 +58,39 @@ class festivals: NSObject {
     
 }
 
+class hotelsModel: NSObject {
+    var cityID : NSString!
+    var hotelID : NSString!
+    var name : NSString!
+    var address : NSString!
+    var phone : NSString!
+    var images : NSString!
+    var lati : NSString!
+    var longi : NSString!
+}
+
+class shoppingModel: NSObject {
+    var cityID : NSString!
+    var shopID : NSString!
+    var name : NSString!
+    var address : NSString!
+    var phone : NSString!
+    var images : NSString!
+    var lati : NSString!
+    var longi : NSString!
+}
+
+class guidesModel: NSObject {
+    var cityID : NSString!
+    var guideID : NSString!
+    var name : NSString!
+    var languages : NSString!
+    var phone : NSString!
+    var image : NSString!
+    var price : NSString!
+    var rattings : NSString!
+    
+}
 
 
 

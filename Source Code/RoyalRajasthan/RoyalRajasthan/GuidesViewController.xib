@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TRAJANUS.TTF">
+            <string>TrajanusRoman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuidesViewController" customModule="RoyalRajasthan" customModuleProvider="target">
+            <connections>
+                <outlet property="tblViewHotels" destination="Znj-rb-r3D" id="8oi-WI-xz0"/>
+                <outlet property="view" destination="TC0-2h-Uni" id="dE7-nb-Isb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="TC0-2h-Uni">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backGround" translatesAutoresizingMaskIntoConstraints="NO" id="6Xd-IF-dKw">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KGr-YO-rgc">
+                    <rect key="frame" x="0.0" y="0.0" width="374" height="677"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.38" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUIDES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7N8-yp-RTM">
+                    <rect key="frame" x="0.0" y="10" width="375" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="zQX-bB-PoG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="TrajanusRoman" family="Trajanus Roman" pointSize="26"/>
+                    <color key="textColor" red="0.97254901959999995" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2h-Mf-gLg">
+                    <rect key="frame" x="10" y="12" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="ZrC-QY-Gv7"/>
+                        <constraint firstAttribute="height" constant="40" id="gZs-bK-cIs"/>
+                    </constraints>
+                    <state key="normal" image="btnBack"/>
+                    <connections>
+                        <action selector="btnBackTapped:" destination="-1" eventType="touchUpInside" id="7EM-dy-0xp"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="100" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Znj-rb-r3D">
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AM9-FZ-mdH"/>
+                        <outlet property="delegate" destination="-1" id="eaq-0k-iaa"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I2h-Mf-gLg" firstAttribute="top" secondItem="TC0-2h-Uni" secondAttribute="top" constant="12" id="BxX-0Q-fgV"/>
+                <constraint firstItem="7N8-yp-RTM" firstAttribute="leading" secondItem="TC0-2h-Uni" secondAttribute="leading" id="JH6-XJ-j18"/>
+                <constraint firstItem="7N8-yp-RTM" firstAttribute="top" secondItem="TC0-2h-Uni" secondAttribute="top" constant="10" id="Okw-IV-TZv"/>
+                <constraint firstItem="I2h-Mf-gLg" firstAttribute="leading" secondItem="TC0-2h-Uni" secondAttribute="leading" constant="10" id="Vc2-FE-oOj"/>
+                <constraint firstItem="Znj-rb-r3D" firstAttribute="leading" secondItem="TC0-2h-Uni" secondAttribute="leading" id="jeJ-kl-FfV"/>
+                <constraint firstAttribute="trailing" secondItem="7N8-yp-RTM" secondAttribute="trailing" id="nMq-nJ-OmF"/>
+                <constraint firstAttribute="bottom" secondItem="Znj-rb-r3D" secondAttribute="bottom" id="ry9-7v-ocI"/>
+                <constraint firstItem="Znj-rb-r3D" firstAttribute="top" secondItem="7N8-yp-RTM" secondAttribute="bottom" constant="-10" id="sTj-W9-8yF"/>
+                <constraint firstAttribute="trailing" secondItem="Znj-rb-r3D" secondAttribute="trailing" id="tC1-pv-IVM"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="69.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backGround" width="400" height="640"/>
+        <image name="btnBack" width="32" height="32"/>
+    </resources>
+</document>

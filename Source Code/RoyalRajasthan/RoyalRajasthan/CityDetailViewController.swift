@@ -49,12 +49,21 @@ class CityDetailViewController: UIViewController {
     
     
     @IBAction func openHotels(_ sender: Any) {
+        let hotelsOBJ = HotelsViewController(nibName: "HotelsViewController", bundle: nil)
+        self.navigationController?.pushViewController(hotelsOBJ, animated: true)
     }
-
+    
     @IBAction func openShoppings(_ sender: Any) {
+        let shopsOBJ = ShoppingViewController(nibName: "ShoppingViewController", bundle: nil)
+        self.navigationController?.pushViewController(shopsOBJ, animated: true)
+        
     }
     @IBAction func openGuides(_ sender: Any) {
+        
+        let guideOBJ = GuidesViewController(nibName: "GuidesViewController", bundle: nil)
+        self.navigationController?.pushViewController(guideOBJ, animated: true)
     }
+
     @IBAction func openMap(_ sender: Any) {
         
         if (UIApplication.shared.canOpenURL(NSURL(string:"comgooglemaps://")! as URL)) {

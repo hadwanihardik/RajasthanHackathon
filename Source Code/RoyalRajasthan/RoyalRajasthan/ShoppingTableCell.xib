@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ShoppingTableCell" id="KGk-i7-Jjw" customClass="ShoppingTableCell" customModule="RoyalRajasthan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o4j-dw-gcV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="130" id="BH5-vj-04q"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="SAROVAR HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7L-vS-EHz">
+                        <rect key="frame" x="5" y="135" width="238" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RUV-Ts-LLP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Udaipur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umc-Sf-4zg">
+                        <rect key="frame" x="5" y="157" width="238" height="16"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiU-9k-RtF">
+                        <rect key="frame" x="280" y="140" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="3JJ-bN-P9E"/>
+                            <constraint firstAttribute="width" constant="30" id="nms-Sa-jDW"/>
+                        </constraints>
+                        <state key="normal" image="callIcon"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbR-OY-E9J">
+                        <rect key="frame" x="245" y="140" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="HfW-fz-wkU"/>
+                            <constraint firstAttribute="width" constant="30" id="JAr-dI-QNS"/>
+                        </constraints>
+                        <state key="normal" image="map"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="o4j-dw-gcV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0uH-E6-xIG"/>
+                    <constraint firstItem="AiU-9k-RtF" firstAttribute="top" secondItem="o4j-dw-gcV" secondAttribute="bottom" constant="10" id="2Tl-6Q-DJR"/>
+                    <constraint firstItem="AiU-9k-RtF" firstAttribute="leading" secondItem="Umc-Sf-4zg" secondAttribute="trailing" constant="37" id="4Jv-YI-u3A"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Umc-Sf-4zg" secondAttribute="bottom" constant="-2" id="Ezj-WP-KUt"/>
+                    <constraint firstItem="l7L-vS-EHz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Ufd-uL-xJ5"/>
+                    <constraint firstItem="l7L-vS-EHz" firstAttribute="top" secondItem="o4j-dw-gcV" secondAttribute="bottom" constant="5" id="XY8-Vh-WY1"/>
+                    <constraint firstItem="AiU-9k-RtF" firstAttribute="leading" secondItem="l7L-vS-EHz" secondAttribute="trailing" constant="37" id="aM7-1n-uqb"/>
+                    <constraint firstItem="Umc-Sf-4zg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-3" id="d98-mY-htj"/>
+                    <constraint firstItem="o4j-dw-gcV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eBx-5S-PgJ"/>
+                    <constraint firstAttribute="trailing" secondItem="AiU-9k-RtF" secondAttribute="trailing" constant="10" id="fhY-e4-Nut"/>
+                    <constraint firstItem="Umc-Sf-4zg" firstAttribute="top" secondItem="l7L-vS-EHz" secondAttribute="bottom" constant="1" id="mOs-mk-b8f"/>
+                    <constraint firstAttribute="trailing" secondItem="o4j-dw-gcV" secondAttribute="trailing" id="wt9-th-Jhy"/>
+                    <constraint firstItem="dbR-OY-E9J" firstAttribute="top" secondItem="o4j-dw-gcV" secondAttribute="bottom" constant="10" id="xyv-NG-mdd"/>
+                    <constraint firstItem="AiU-9k-RtF" firstAttribute="leading" secondItem="dbR-OY-E9J" secondAttribute="trailing" constant="5" id="zir-cV-enC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnCallTapped" destination="AiU-9k-RtF" id="GoF-Hd-1LX"/>
+                <outlet property="btnMapTapped" destination="dbR-OY-E9J" id="B13-zX-WcI"/>
+                <outlet property="imgHotel" destination="o4j-dw-gcV" id="xIj-fe-s93"/>
+                <outlet property="lblHotelAddress" destination="Umc-Sf-4zg" id="umC-Yt-XSU"/>
+                <outlet property="lblHotelName" destination="l7L-vS-EHz" id="3Lp-E3-702"/>
+            </connections>
+            <point key="canvasLocation" x="5" y="-7"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="callIcon" width="25" height="25"/>
+        <image name="map" width="200" height="200"/>
+    </resources>
+</document>

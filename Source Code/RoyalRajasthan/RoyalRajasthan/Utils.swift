@@ -64,6 +64,50 @@ class Utils
         
         return tmpOBJ
     }
+    static func getHotelsWithValues(dictLead:NSDictionary) -> hotelsModel{
+        let tmpOBJ = hotelsModel.init()
+        
+        tmpOBJ.cityID =   dictLead["cityID"] as! NSString
+        tmpOBJ.hotelID =   dictLead["hotelID"] as! NSString
+        tmpOBJ.name =   dictLead["name"] as! NSString
+        tmpOBJ.address =   dictLead["address"] as! NSString
+        tmpOBJ.phone =   dictLead["phone"] as! NSString
+        tmpOBJ.images =   dictLead["images"] as! NSString
+        tmpOBJ.lati =   dictLead["lati"] as! NSString
+        tmpOBJ.longi =   dictLead["longi"] as! NSString
+        
+        return tmpOBJ
+    }
+    
+    static func getShopsWithValues(dictLead:NSDictionary) -> shoppingModel{
+        let tmpOBJ = shoppingModel.init()
+        
+        tmpOBJ.cityID =   dictLead["cityID"] as! NSString
+        tmpOBJ.shopID =   dictLead["shopID"] as! NSString
+        tmpOBJ.name =   dictLead["name"] as! NSString
+        tmpOBJ.address =   dictLead["address"] as! NSString
+        tmpOBJ.phone =   dictLead["phone"] as! NSString
+        tmpOBJ.images =   dictLead["images"] as! NSString
+        tmpOBJ.lati =   dictLead["lati"] as! NSString
+        tmpOBJ.longi =   dictLead["longi"] as! NSString
+        
+        return tmpOBJ
+    }
+    
+    static func getGuideWithValues(dictLead:NSDictionary) -> guidesModel{
+        let tmpOBJ = guidesModel.init()
+        tmpOBJ.cityID =   dictLead["cityID"] as! NSString
+        tmpOBJ.guideID =   dictLead["guideID"] as! NSString
+        tmpOBJ.name =   dictLead["name"] as! NSString
+        tmpOBJ.languages =   dictLead["languages"] as! NSString
+        tmpOBJ.phone =   dictLead["phone"] as! NSString
+        tmpOBJ.image =   dictLead["image"] as! NSString
+        tmpOBJ.price =   dictLead["price"] as! NSString
+        tmpOBJ.rattings =   dictLead["rattings"] as! NSString
+        
+        return tmpOBJ
+    }
+
 
 
 }

@@ -109,6 +109,12 @@ class HomePage: UIViewController,UITableViewDataSource,UITableViewDelegate {
         self.navigationController?.pushViewController(festivals, animated: true)
     }
     @IBAction func btnFeedBackTapped(_ sender: Any) {
+        leadingConstraint.constant = -178
+        self.view.layoutIfNeeded()
+        self.btnMenu.setImage(UIImage(named:"menuOpen"), for: .normal)
+        let feedback = FeedbackViewController(nibName: "FeedbackViewController", bundle: nil)
+        self.navigationController?.pushViewController(feedback, animated: true)
+
     }
     
     override func didReceiveMemoryWarning() {
