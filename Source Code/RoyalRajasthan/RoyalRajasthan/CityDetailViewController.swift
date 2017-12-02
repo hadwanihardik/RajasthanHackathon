@@ -21,7 +21,7 @@ class CityDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         lblTitle.text = cityData.name.uppercased
-        txtDesc.text = cityData.overview as String!
+        txtDesc.text = " Famous food: \(cityData.famousfood!)\n\n Best Time To Visit:\(cityData.bestvisittime!) \n\nOverview:\(cityData.overview!)"
         var imagesArray = [UIImage]()
         for i in 1...5
         {
